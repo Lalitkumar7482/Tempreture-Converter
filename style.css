@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    height: 400px;
+    width: 500px;
+    background-color: rgb(11, 122, 187);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.input-group {
+    margin-top: 30px;
+}
+
+#temperature{
+    padding: 6px;
+    width: 150px;
+    margin-right: 10px;
+    border-radius:3px;
+    border:none;
+
+}
+
+#unit{
+    padding: 6px;
+    border-radius: 3px;
+
+}
+
+
+
+button {
+    margin-top: 40px;
+    padding:7px 30px ;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(5, 29, 116);
+}
+
+#result{
+    color: white;
+    margin-top: 30px;
+}
